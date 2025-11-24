@@ -94,18 +94,22 @@ const Index = () => {
                   Узнать больше
                 </Button>
               </div>
-              <div className="flex gap-8 pt-4">
+              <div className="grid grid-cols-2 gap-6 pt-4">
                 <div>
-                  <div className="text-4xl font-bold text-primary">250+</div>
-                  <div className="text-muted-foreground">Успешных проектов</div>
-                </div>
-                <div>
-                  <div className="text-4xl font-bold text-primary">15+</div>
+                  <div className="text-4xl font-bold text-primary">10+</div>
                   <div className="text-muted-foreground">Лет на рынке</div>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold text-primary">98%</div>
-                  <div className="text-muted-foreground">Довольных клиентов</div>
+                  <div className="text-4xl font-bold text-primary">10+</div>
+                  <div className="text-muted-foreground">Регионов России</div>
+                </div>
+                <div>
+                  <div className="text-4xl font-bold text-primary">100+</div>
+                  <div className="text-muted-foreground">Успешных проектов</div>
+                </div>
+                <div>
+                  <div className="text-4xl font-bold text-primary">20М+</div>
+                  <div className="text-muted-foreground">Пользователей</div>
                 </div>
               </div>
             </div>
