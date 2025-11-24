@@ -84,7 +84,7 @@ const Index = () => {
                 Стратегические решения для вашего бизнеса
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Мы помогаем корпоративным клиентам достигать амбициозных целей через экспертное консультирование и проверенные методологии
+                Мы знаем, как решить ваши задачи с помощью самых передовых информационных технологий и методов
               </p>
               <div className="flex gap-4">
                 <Button size="lg" className="text-lg px-8">
@@ -320,7 +320,7 @@ const Index = () => {
           <div className="grid md:grid-cols-4 gap-8">
             <div className="space-y-4">
               <h3 className="text-xl font-bold">Технокодер</h3>
-              <p className="text-primary-foreground/80">Стратегические решения для вашего бизнеса</p>
+              <p className="text-primary-foreground/80">Мы знаем, как решить ваши задачи с помощью самых передовых информационных технологий и методов</p>
             </div>
             <div className="space-y-4">
               <h4 className="font-semibold">Компания</h4>
