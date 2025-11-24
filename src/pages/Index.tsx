@@ -63,7 +63,7 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <div className="text-2xl font-bold text-primary">БизнесКонсалт</div>
+            <div className="text-2xl font-bold text-primary">Технокодер</div>
             <div className="hidden md:flex gap-8">
               <a href="#about" className="text-foreground hover:text-accent transition-colors">О компании</a>
               <a href="#services" className="text-foreground hover:text-accent transition-colors">Услуги</a>
@@ -319,7 +319,7 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-4 gap-8">
             <div className="space-y-4">
-              <h3 className="text-xl font-bold">БизнесКонсалт</h3>
+              <h3 className="text-xl font-bold">Технокодер</h3>
               <p className="text-primary-foreground/80">Стратегические решения для вашего бизнеса</p>
             </div>
             <div className="space-y-4">
@@ -348,7 +348,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-primary-foreground/20 mt-12 pt-8 text-center text-primary-foreground/60">
-            © 2024 БизнесКонсалт. Все права защищены.
+            © 2024 Технокодер. Все права защищены.
           </div>
         </div>
       </footer>
