@@ -227,6 +227,67 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-20 px-6 bg-muted/30">
+        <div className="container mx-auto">
+          <div className="text-center space-y-4 mb-16">
+            <h2 className="text-4xl font-bold text-primary">Технологии, с которыми мы работаем</h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Используем проверенные технологии и современные инструменты для создания надежных решений
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
+            <div className="flex flex-col items-center gap-3 p-6 bg-background rounded-xl hover:shadow-lg transition-shadow">
+              <Icon name="Blocks" size={48} className="text-accent" />
+              <span className="font-semibold text-center">React</span>
+            </div>
+            <div className="flex flex-col items-center gap-3 p-6 bg-background rounded-xl hover:shadow-lg transition-shadow">
+              <Icon name="Box" size={48} className="text-accent" />
+              <span className="font-semibold text-center">Node.js</span>
+            </div>
+            <div className="flex flex-col items-center gap-3 p-6 bg-background rounded-xl hover:shadow-lg transition-shadow">
+              <Icon name="Boxes" size={48} className="text-accent" />
+              <span className="font-semibold text-center">Python</span>
+            </div>
+            <div className="flex flex-col items-center gap-3 p-6 bg-background rounded-xl hover:shadow-lg transition-shadow">
+              <Icon name="Database" size={48} className="text-accent" />
+              <span className="font-semibold text-center">PostgreSQL</span>
+            </div>
+            <div className="flex flex-col items-center gap-3 p-6 bg-background rounded-xl hover:shadow-lg transition-shadow">
+              <Icon name="Server" size={48} className="text-accent" />
+              <span className="font-semibold text-center">Docker</span>
+            </div>
+            <div className="flex flex-col items-center gap-3 p-6 bg-background rounded-xl hover:shadow-lg transition-shadow">
+              <Icon name="Cloud" size={48} className="text-accent" />
+              <span className="font-semibold text-center">AWS</span>
+            </div>
+            <div className="flex flex-col items-center gap-3 p-6 bg-background rounded-xl hover:shadow-lg transition-shadow">
+              <Icon name="Zap" size={48} className="text-accent" />
+              <span className="font-semibold text-center">TypeScript</span>
+            </div>
+            <div className="flex flex-col items-center gap-3 p-6 bg-background rounded-xl hover:shadow-lg transition-shadow">
+              <Icon name="GitBranch" size={48} className="text-accent" />
+              <span className="font-semibold text-center">Git</span>
+            </div>
+            <div className="flex flex-col items-center gap-3 p-6 bg-background rounded-xl hover:shadow-lg transition-shadow">
+              <Icon name="Workflow" size={48} className="text-accent" />
+              <span className="font-semibold text-center">Kubernetes</span>
+            </div>
+            <div className="flex flex-col items-center gap-3 p-6 bg-background rounded-xl hover:shadow-lg transition-shadow">
+              <Icon name="Network" size={48} className="text-accent" />
+              <span className="font-semibold text-center">GraphQL</span>
+            </div>
+            <div className="flex flex-col items-center gap-3 p-6 bg-background rounded-xl hover:shadow-lg transition-shadow">
+              <Icon name="Flame" size={48} className="text-accent" />
+              <span className="font-semibold text-center">Redis</span>
+            </div>
+            <div className="flex flex-col items-center gap-3 p-6 bg-background rounded-xl hover:shadow-lg transition-shadow">
+              <Icon name="Monitor" size={48} className="text-accent" />
+              <span className="font-semibold text-center">Vue.js</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="contact" className="py-20 px-6">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center space-y-4 mb-12">
